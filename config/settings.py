@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import environ
 
@@ -28,6 +29,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     'rest_framework',
     'django_filters',
+    'corsheaders',
 ]
 
 
@@ -40,6 +42,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -67,6 +70,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': env.str('PG_DATABASE', 'postgres'),
+        'USER': env.str('PG_USER', 'postgres'),
+        'PASSWORD': env.str('PG_PASSWORD', 'postgres'),
+        'HOST': env.str('DB_HOST', 'postgres'),
+        'PORT': env.str('DB_PORT', 5432),
+    },
+    'extra': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
@@ -103,8 +114,21 @@ USE_TZ = True
 
 
 
-
-STATIC_URL = 'static/'
+#=================
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_TEST_ROOT = os.path.join(BASE_DIR, 'media/test/')
+#=================
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#=================
+# CORS headers
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = ['*']
+CSRF_COOKIE_SECURE = False
+#=================
