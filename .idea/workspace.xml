@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="settings work">
+    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="drf setting">
+      <change afterPath="$PROJECT_DIR$/api/spectacular/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/spectacular/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/spectacular/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703891339577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="drf setting">
+      <created>1703958471891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703958471891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env was added and settings also was rewrite" />
     <MESSAGE value="settings work" />
-    <option name="LAST_COMMIT_MESSAGE" value="settings work" />
+    <MESSAGE value="drf setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="drf setting" />
   </component>
 </project>
