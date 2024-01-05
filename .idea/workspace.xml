@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="drf setting">
-      <change afterPath="$PROJECT_DIR$/api/spectacular/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/spectacular/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/spectacular/urls.py" afterDir="false" />
+    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="jwt tokens and other">
+      <change afterPath="$PROJECT_DIR$/breaks/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/models/organizations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/call_helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/call_helper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703958471891</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jwt tokens and other">
+      <created>1704103597093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704103597093</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jwt tokens and other">
+      <created>1704103611686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704103611686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +123,7 @@
     <MESSAGE value="env was added and settings also was rewrite" />
     <MESSAGE value="settings work" />
     <MESSAGE value="drf setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="drf setting" />
+    <MESSAGE value="jwt tokens and other" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt tokens and other" />
   </component>
 </project>
