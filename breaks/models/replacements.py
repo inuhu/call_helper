@@ -1,4 +1,7 @@
+from django.contrib.auth import get_user_model
 from django.db import models
+
+User = get_user_model()
 
 import breaks.models.groups
 
@@ -24,16 +27,16 @@ class Replacement(models.Model):
         return f'Смена №{self.pk} для {self.group}'
 
 
-class ReplacementStatus(models.Model):
-    code = models.CharField('Код', max_length=16, primary_key=True)
-    name = models.CharField('Название', max_length=32, )
-    sort = models.PositiveSmallIntegerField('Сортировка', null=True, blank=True)
-    is_active = models.BooleanField('Активность', default=True)
+class ReplacementEmployee(models.Model):
+    employee = models.ForeignKey(User, models.CASCADE, 'replacements', verbose_name='Сотрудник')
+    replacement = models.ForeignKey('breaks.Replacement', models.CASCADE, 'employees',
+                                    verbose_name='Смена')
+    status = models.ForeignKey('breaks.ReplacementStatus', models.RESTRICT, 'status', verbose_name='Статус')
 
     class Meta:
-        verbose_name = 'Статус_смены'
-        verbose_name_plural = 'Статусы_смены'
-        ordering = ('sort',)
+        verbose_name = 'Смена - Работник'
+        verbose_name_plural = 'Смены - Работники'
+        ordering = ('status',)
 
     def __str__(self):
-        return f'Смена №{self.code} для {self.name}'
+        return f'Сотрудник:{self.employee} - Смена:{self.replacement}'

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="jwt tokens and other">
-      <change afterPath="$PROJECT_DIR$/breaks/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/models/organizations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/call_helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/call_helper.iml" afterDir="false" />
+    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="work with database(organizations, replacements and replacements_status added)">
+      <change afterPath="$PROJECT_DIR$/breaks/models/breaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/models/dicts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/models/replacements.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/replacements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704103611686</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="work with database">
+      <created>1704486852357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704486852357</updated>
+    </task>
+    <task id="LOCAL-00008" summary="work with database(replacements and replacements_status added)">
+      <created>1706205982386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706205982386</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +139,8 @@
     <MESSAGE value="settings work" />
     <MESSAGE value="drf setting" />
     <MESSAGE value="jwt tokens and other" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt tokens and other" />
+    <MESSAGE value="work with database" />
+    <MESSAGE value="work with database(replacements and replacements_status added)" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with database(replacements and replacements_status added)" />
   </component>
 </project>
