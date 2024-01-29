@@ -50,5 +50,6 @@ class Group(models.Model):
         verbose_name_plural = 'Группы'
         ordering = ('name',)
 
+
     def __str__(self):
         return f'id:{self.pk} {self.name}'

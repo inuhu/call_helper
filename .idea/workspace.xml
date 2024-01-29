@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="work with database(organizations, replacements and replacements_status added)">
-      <change afterPath="$PROJECT_DIR$/breaks/models/breaks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/models/dicts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
+    <list default="true" id="75536e1c-643b-4dca-a8cf-e841b632c764" name="Changes" comment="work with database">
+      <change afterPath="$PROJECT_DIR$/breaks/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/breaks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breaks/models/replacements.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/replacements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/models/breaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/breaks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/models/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/groups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706205982386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="work with database">
+      <created>1706312286784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706312286784</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,8 +144,8 @@
     <MESSAGE value="settings work" />
     <MESSAGE value="drf setting" />
     <MESSAGE value="jwt tokens and other" />
-    <MESSAGE value="work with database" />
     <MESSAGE value="work with database(replacements and replacements_status added)" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with database(replacements and replacements_status added)" />
+    <MESSAGE value="work with database" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with database" />
   </component>
 </project>
